@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background: #1C1C1C;
+    color: #FFFFFF;
+}
+
+#hero {
+    margin: 115px 52px;
+}
+
+#first-h1 {
+    margin-bottom: 0px;
+}
+
+#second-h1 {
+    margin: 0;
+    color: #4ADF86;
+}
+
+#tip {
+    color: #D5D4D8;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#generate-btn {
+    background: #10B981;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 15px;
+    color: inherit;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: #2F3E53;
+    margin-top: 35px;
+    max-width: 437px;
+    margin: 35px 0 auto;
+}
+
+#input-div {
+    display: flex;
+    text-align: center;
+}
+
+#password-one, #password-two {
+    background: #273549;
+    border-radius: 6px;
+    padding: 10px 30px;
+    border: none;
+    color: #55F991;
+    width: 150px;
+    font-size: 16px;
+    font-weight: normal;
+    overflow: hidden;
+}
+#password-one:empty, #password-two:empty {
+    width: 150px;
+    height: 18px;
+}
+#password-one {
+    margin-right: 20px;
+}
+
+input::placeholder {
+    color: #55F991;
+}
+
+#user-num-input {
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    padding: 9px 15px;
+    background: #10B981;
+    color: inherit;
+}
+
+#user-num-input::placeholder {
+    color: #FFFFFF;
+}
